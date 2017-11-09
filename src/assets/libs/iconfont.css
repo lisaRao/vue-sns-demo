@@ -1,0 +1,95 @@
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1503222627418'); /* IE9*/
+  src: url('iconfont.eot?t=1503222627418#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1503222627418') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1503222627418') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1503222627418#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-colorpallette:before { content: "\e673"; }
+
+.icon-user:before { content: "\e609"; }
+
+.icon-history:before { content: "\e64d"; }
+
+.icon-good-post:before { content: "\e621"; }
+
+.icon-baotu:before { content: "\e602"; }
+
+.icon-edit:before { content: "\e686"; }
+
+.icon-signout:before { content: "\ebd9"; }
+
+.icon-today-exercise:before { content: "\e63f"; }
+
+.icon-lianxiwomen:before { content: "\e65a"; }
+
+.icon-alignleft:before { content: "\e61f"; }
+
+.icon-gonggaolanguanli:before { content: "\e684"; }
+
+.icon-font:before { content: "\e704"; }
+
+.icon-camera:before { content: "\e6b8"; }
+
+.icon-photo:before { content: "\e605"; }
+
+.icon-search:before { content: "\e640"; }
+
+.icon-music:before { content: "\e685"; }
+
+.icon-zhaoxiangji:before { content: "\e663"; }
+
+.icon-my-collect:before { content: "\e63c"; }
+
+.icon-run:before { content: "\e622"; }
+
+.icon-messge:before { content: "\e6f2"; }
+
+.icon-delete:before { content: "\e68c"; }
+
+.icon-list:before { content: "\e603"; }
+
+.icon-add-photo:before { content: "\e6c2"; }
+
+.icon-movie:before { content: "\e649"; }
+
+.icon-tuichu:before { content: "\e655"; }
+
+.icon-shangdian:before { content: "\e682"; }
+
+.icon-undo:before { content: "\e789"; }
+
+.icon-fuwutiaokuan:before { content: "\e64f"; }
+
+.icon-eraser:before { content: "\e71c"; }
+
+.icon-home:before { content: "\e601"; }
+
+.icon-car:before { content: "\e610"; }
+
+.icon-plus:before { content: "\e611"; }
+
+.icon-yishitubiao-:before { content: "\e60a"; }
+
+.icon-news:before { content: "\e62f"; }
+
+.icon-technology:before { content: "\e600"; }
+
+.icon-travel:before { content: "\e6b7"; }
+
+.icon-quit:before { content: "\e63a"; }
+
+.icon-xiazai:before { content: "\e6d0"; }
+
+.icon-location:before { content: "\e614"; }
+

@@ -1,0 +1,87 @@
+/*此文件用来覆盖VUX全局的CSS*/
+
+img{
+  max-width:100%;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  overflow-x: hidden;
+  overflow-y: auto;
+  user-select: text;
+  -webkit-user-select: text;
+  -webkit-touch-callout: default;
+}
+
+a{
+  color:#999;
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+.weui_toast_text{
+  top:85% !important;
+  font-size:.75rem;
+}
+.weui-btn_plain-primary{
+    color: #f26f20 !important;
+    border: 1px solid #f26f20  !important;
+}
+.weui-btn_disabled.weui-btn_primary {
+    background-color: #f26f20 !important;
+}
+.weui-btn_primary:not(.weui-btn_disabled):active {
+    background-color: #f26f20 !important;
+}
+//返回样式
+.vux-header .vux-header-left .vux-header-back {
+    padding-left: 36px;
+    height: 46px;
+    line-height: 46px;
+    width: 50px;
+    top: -13px;
+    left: 5px;
+    position: relative;
+}
+.vux-header .vux-header-right p{
+  a{
+    width:100%
+  }
+  width:100px;
+  height:45px;
+  top:-14px;
+  display: inline-block;
+  position: relative;
+  height: 46px;
+  line-height: 50px;
+  text-align: right;
+}
+
+li, ul {
+  list-style: none;
+}
+#postIndex{
+  -webkit-overflow-scrolling: touch
+}
+
+// header  position 使用了 absolute 后不能 注释这个类的代码
+// 不需要 header 定位在那里的 不要调用这个 classname 可以了
+//  全局的请勿轻易改动 ！！！ 
+.body-wrap {
+    padding-top: 46px;
+    padding-bottom: 55px;
+}
+
+input, textarea, button {
+  outline: none;
+}
+
+.vux-header {
+  position: absolute;
+}
